@@ -1,6 +1,6 @@
 {
-    "name": "abulrehman/flarum-youtube-button",
-    "description": "..",
+    "name": "abulrehman/flarum-insert-yt-video-link",
+    "description": "A simple extension to insert YouTube video links in Flarum",
     "keywords": [
         "flarum"
     ],
@@ -18,12 +18,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Abulrehman\\Youtubebutton\\": "src/"
+            "Abulrehman\\InsertYtVideoLink\\": "src/"
         }
     },
     "extra": {
         "flarum-extension": {
-            "title": "Youtube Button",
+            "title": "Insert YouTube Video Link",
             "category": "",
             "icon": {
                 "name": "",
