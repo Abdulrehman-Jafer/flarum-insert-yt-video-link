@@ -2203,7 +2203,7 @@ class InsertYtVideoLink extends (flarum_common_components_Modal__WEBPACK_IMPORTE
       }
     }), mithril__WEBPACK_IMPORTED_MODULE_6___default()((flarum_common_components_Button__WEBPACK_IMPORTED_MODULE_4___default()), {
       onclick: () => {
-        flarum_forum_app__WEBPACK_IMPORTED_MODULE_7___default().composer.editor?.insertAtCursor(`[YT_LINK](${this.inputValue})`, false);
+        flarum_forum_app__WEBPACK_IMPORTED_MODULE_7___default().composer.editor?.insertAtCursor(`[YT_LINK]${this.inputValue}[YT_LINK]`, false);
         this.hide();
       }
     }, 'Insert')])]);

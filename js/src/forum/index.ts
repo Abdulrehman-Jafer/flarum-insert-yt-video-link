@@ -30,7 +30,7 @@ class InsertYtVideoLink extends Modal {
       }),
       m(Button, {
           onclick: () => {
-            app.composer.editor?.insertAtCursor(`[YT_LINK](${this.inputValue})`, false);
+            app.composer.editor?.insertAtCursor(`[YT_LINK]${this.inputValue}[YT_LINK]`, false);
             this.hide();
           }
         }, 'Insert')
