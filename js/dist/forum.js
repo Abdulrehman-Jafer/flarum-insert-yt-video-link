@@ -2203,7 +2203,7 @@ class InsertYtVideoLink extends (flarum_common_components_Modal__WEBPACK_IMPORTE
       }
     }), mithril__WEBPACK_IMPORTED_MODULE_6___default()((flarum_common_components_Button__WEBPACK_IMPORTED_MODULE_4___default()), {
       onclick: () => {
-        flarum_forum_app__WEBPACK_IMPORTED_MODULE_7___default().composer.editor?.insertAtCursor(`[YT_LINK]${this.inputValue}[YT_LINK]`, false);
+        flarum_forum_app__WEBPACK_IMPORTED_MODULE_7___default().composer.editor?.insertAtCursor(`${this.inputValue}`, false);
         this.hide();
       }
     }, 'Insert')])]);
@@ -2405,7 +2405,7 @@ function _typeof(o) {
 /******/ 	
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
-/******/ 		flarum.reg._webpack_runtimes["abulrehman-youtube-button"] ||= __webpack_require__;// Check if module is in cache
+/******/ 		flarum.reg._webpack_runtimes["abulrehman-insert-yt-video-link"] ||= __webpack_require__;// Check if module is in cache
 /******/ 		var cachedModule = __webpack_module_cache__[moduleId];
 /******/ 		if (cachedModule !== undefined) {
 /******/ 			return cachedModule.exports;

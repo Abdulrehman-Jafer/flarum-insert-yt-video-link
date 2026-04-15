@@ -107,7 +107,7 @@ module.exports = flarum.reg.get('core', 'common/app');
 /******/ 	
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
-/******/ 		flarum.reg._webpack_runtimes["abulrehman-youtube-button"] ||= __webpack_require__;// Check if module is in cache
+/******/ 		flarum.reg._webpack_runtimes["abulrehman-insert-yt-video-link"] ||= __webpack_require__;// Check if module is in cache
 /******/ 		var cachedModule = __webpack_module_cache__[moduleId];
 /******/ 		if (cachedModule !== undefined) {
 /******/ 			return cachedModule.exports;
